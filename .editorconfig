@@ -1,0 +1,4 @@
+# Windows CMD 解析 .bat 用 GBK/ANSI，勿用 UTF-8 BOM
+[*.bat]
+charset = gbk
+end_of_line = crlf

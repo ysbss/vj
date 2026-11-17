@@ -1,0 +1,11 @@
+VJ - Video vocal removal batch tool
+Copyright (c) 2026 yusu
+
+This project bundles or invokes the following third-party components:
+
+- Demucs (MIT License) - https://github.com/facebookresearch/demucs
+- FFmpeg (LGPL/GPL, depending on build) - https://ffmpeg.org
+- PyTorch / torchaudio (BSD-style) - https://pytorch.org
+- Python runtime and related Python packages - see requirements.txt
+
+See each component's official repository for license terms.

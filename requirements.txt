@@ -1,0 +1,8 @@
+# Demucs inference stack - Windows CPU, torchcodec-free
+demucs==4.0.1
+soundfile>=0.12.1
+lameenc>=1.2
+
+# --- 额外性能与兼容性补丁 ---
+numpy<2.0.0
+# 加上这一行是为了确保 Torch 的底层运算库不会因为 numpy 版本过高而报错
